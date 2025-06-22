@@ -13,7 +13,7 @@ namespace Web_Shop.Application.Services
 {
     public class ProductService : BaseService<Product>, IProductService
     {
-        public ProductService(ILogger<ProductService> logger,
+        public ProductService(ILogger<Product> logger,
                              ISieveProcessor sieveProcessor,
                              IOptions<SieveOptions> sieveOptions,
                              IUnitOfWork unitOfWork)
